@@ -36,8 +36,21 @@ const Register = () => {
         <div className="auth_page">
             <form onSubmit={handleSubmit}>
 
-                <div style={{ textAlign: "center" }} >
-                    <img style={{ width: '64px', height: '64px', margin: '10px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1625477279/icon/ReachMe2_pnioxk.png" />
+                <div style={{ textAlign: "center", margin: '20px' }} >
+                    <div style={{ textAlign: "center", display: 'flex', justifyContent: 'center' }} >
+                        <div style={{ display: "flex", color: '#636060' }} className="navbar-brand p-0 m-0">
+                            <div style={{
+                                textAlign: "center",
+                                display: 'flex',
+                                justifyContent: 'center',
+                                alignItems: 'center'
+                            }} >
+                                <img style={{ width: '38px', height: '38px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1625477279/icon/ReachMe2_pnioxk.png" />
+                            </div>
+                            <h1 style={{ margin: '0' }}>eachMe</h1>
+                        </div>
+                    </div>
+                    <h6 style={{ margin: '0', color: '#636060' }}>Social Media Platforms</h6>
                 </div>
 
                 <div className="form-group">
