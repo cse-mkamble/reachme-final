@@ -24,9 +24,9 @@ const Header = () => {
                             justifyContent: 'center',
                             alignItems: 'center'
                         }} >
-                            <img style={{ width: '26px', height: '26px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1625477279/icon/ReachMe2_pnioxk.png" />
+                            <img style={{ width: '28px', height: '28px' }} src="https://res.cloudinary.com/mayurkamble/image/upload/v1625477279/icon/ReachMe2_pnioxk.png" />
                         </div>
-                        eachMe
+                        ReachMe
                     </h1>
                 </Link>
 
