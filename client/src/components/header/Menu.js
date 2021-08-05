@@ -72,8 +72,9 @@ const Menu = () => {
                         {theme ? 'Light mode' : 'Dark mode'}
                     </label>
 
-                    <Link className="dropdown-item" to={`/installation`}>Installation</Link>
-                    <Link className="dropdown-item" to={`/aboutUs`}>About Us</Link>
+                    <Link className="dropdown-item" to={`/installation`}>Install App</Link>
+                    <Link className="dropdown-item" to={`/invite`}>Invite On</Link>
+                    <Link className="dropdown-item" to={`/aboutUs`}>About ReachMe</Link>
 
                     <div className="dropdown-divider"></div>
                     <Link className="dropdown-item" to="/"

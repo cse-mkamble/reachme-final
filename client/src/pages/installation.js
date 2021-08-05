@@ -17,7 +17,7 @@ const Installation = () => {
                 </div>
                 <div style={{ paddingTop: '15px' }}>
                     <h4 style={{ marginBottom: '.0rem' }}>ReachMe</h4>
-                    <p style={{ marginTop: '0px' }}>Social Media Platforms</p>
+                    <p style={{ marginTop: '0px' }}>Social Networking Platforms</p>
                 </div>
             </div>
             <hr />

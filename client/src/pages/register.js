@@ -48,7 +48,7 @@ const Register = () => {
                         </div>
                         <div>
                             <h1 style={{ margin: '0' }}>ReachMe</h1>
-                            <h6 style={{ margin: '0' }}>Social Media Platforms</h6>
+                            <h6 style={{ margin: '0' }}>Social Networking Platforms</h6>
                         </div>
                     </div>
                 </div>
