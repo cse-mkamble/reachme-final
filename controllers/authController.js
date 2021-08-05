@@ -41,7 +41,7 @@ const authController = {
                             <p>Note: You must perform this validation within the next 24 hours to keep your new account enabled.</p>
                         </div>
                         <div style=" color: rgb(165, 164, 164); text-align: left; margin: 20px auto; " >
-                            <p style=" font-size: 12px; margin: 10px 20px; " >ReachMe is the social network platforms for rapid scaling of multi-platform applications.</p>
+                            <p style=" font-size: 12px; margin: 10px 20px; " >ReachMe is the social networking platforms for rapid scaling of multi-platform applications.</p>
                             <p style=" font-size: 12px; margin: 10px 20px; " >If you encounter any problem, please contact us at cse.mkamble@gmail.com .</p>
                         </div>
                     </div>
@@ -157,7 +157,7 @@ const authController = {
                             <div>${CLIENT_URL}</div>
                         </div>
                         <div style=" color: rgb(165, 164, 164); text-align: left; margin: 20px auto; " >
-                            <p style=" font-size: 12px; margin: 10px 20px; " >ReachMe is the social network platforms for rapid scaling of multi-platform applications.</p>
+                            <p style=" font-size: 12px; margin: 10px 20px; " >ReachMe is the social networking platforms for rapid scaling of multi-platform applications.</p>
                             <p style=" font-size: 12px; margin: 10px 20px; " >If you encounter any problem, please contact us at cse.mkamble@gmail.com .</p>
                         </div>
                     </div>
