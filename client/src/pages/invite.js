@@ -40,6 +40,8 @@ const Installation = () => {
                         }}>
                             <div style={{ textAlign: 'center' }}>
                                 <img style={{
+                                    filter: theme ? 'invert(1)' : 'invert(0)',
+                                    color: theme ? 'white' : '#111',
                                     width: '64px',
                                     height: '64px',
                                     margin: '10px 0 20px 0'
@@ -52,6 +54,8 @@ const Installation = () => {
                                 borderRadius: '10px'
                             }} >
                                 <img style={{
+                                    filter: theme ? 'invert(1)' : 'invert(0)',
+                                    color: theme ? 'white' : '#111',
                                     width: '100px',
                                     height: '100px',
                                     margin: '10px',
