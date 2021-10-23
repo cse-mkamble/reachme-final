@@ -24,12 +24,12 @@ io.on('connection', socket => {
 ExpressPeerServer(http, { path: '/' })
 
 // Routes
-app.use('/api', require('./routes/authRoutes'))
-app.use('/api', require('./routes/userRoutes'))
-app.use('/api', require('./routes/postRoutes'))
-app.use('/api', require('./routes/commentRoutes'))
-app.use('/api', require('./routes/notifyRoutes'))
-app.use('/api', require('./routes/messageRoutes'))
+app.use('/api', require('./src/routes/authRoutes'))
+app.use('/api', require('./src/routes/userRoutes'))
+app.use('/api', require('./src/routes/postRoutes'))
+app.use('/api', require('./src/routes/commentRoutes'))
+app.use('/api', require('./src/routes/notifyRoutes'))
+app.use('/api', require('./src/routes/messageRoutes'))
 
 const URI = process.env.MONGODB_URL
 mongoose.connect(URI, {
