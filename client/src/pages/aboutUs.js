@@ -45,7 +45,7 @@ const AboutUs = () => {
                                 <div style={{ paddingTop: '15px', margin: '10px' }}>
                                     <h4 style={{ marginBottom: '.0rem' }}>Mayur Kamble</h4>
                                     <p style={{ marginTop: '0px', marginBottom: '0px' }}>cse.mkamble@gmail.com</p>
-                                    <p style={{ marginTop: '0px' }}>Software Developer / Fullstack Developer</p>
+                                    <p style={{ marginTop: '0px' }}><strong>Software Engineer</strong></p>
                                 </div>
                             </div>
                         </div>

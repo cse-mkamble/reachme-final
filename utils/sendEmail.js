@@ -1,4 +1,5 @@
 const nodemailer = require('nodemailer')
+require("dotenv").config();
 
 const sendEmail = (options) => {
     const transporter = nodemailer.createTransport({
@@ -9,7 +10,7 @@ const sendEmail = (options) => {
         }
     })
     const mailOptions = {
-        from: process.env.EMAIL_FROM,
+        from: process.env.APP_NAME + ' ' + process.env.EMAIL_FROM,
         to: options.to,
         subject: options.subject,
         html: options.text,
